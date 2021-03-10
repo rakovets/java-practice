@@ -1,0 +1,93 @@
+= course-java-core
+
+This project is for the course "Java Core".
+
+It contains for each theme of this course:
+
+- code examples
+- tasks or set specifications of tasks
+- tests for these tasks
+- utils for tasks/tests
+
+== Branches
+
+* `master` - production code (merge after release group)
+* `develop` - feature/refactor/fix code for all themes
+* `${theme}` - contains code for specific theme
+
+== Theme
+
+|===
+|*Theme*|*Links*
+|Intro.|link:src/main/resources/practice/intro.adoc[intro.adoc]
+|Data types. Variables. Operators. Methods.|link:src/main/java/com/rakovets/course/java/core/practice/operators[package: operators]
+|Decision-making statements.|link:src/main/java/com/rakovets/course/java/core/practice/decision_making_statement[package: decision_making_statement]
+|Looping statements.|link:src/main/java/com/rakovets/course/java/core/practice/looping_statement[package: looping_statement]
+|Array.|link:src/main/java/com/rakovets/course/java/core/practice/array[package: array]
+|OOP. Classes and Objects.|link:src/main/resources/practice/oop-classes-and-objects.adoc[oop-classes-and-objects.adoc]
+|String.|link:src/main/resources/practice/string.adoc[string.adoc], link:src/main/java/com/rakovets/course/java/core/practice/string[package: string]
+|Regular Expressions.|link:src/main/resources/practice/regular-expressions.adoc[regular-expressions.adoc]
+|OOP. Principles.|link:src/main/resources/practice/oop-principles.adoc[oop-principles.adoc]
+|Enum Types.|link:src/main/resources/practice/enum-types.adoc[enum-types.adoc]
+|Exception Handling.|link:src/main/resources/practice/exception-handling.adoc[exception-handling.adoc]
+|Generic Types (link:https://jcp.org/en/jsr/detail?id=14[JSR 14]).|link:src/main/resources/practice/generic-types.adoc[generic-types.adoc]
+|Java Collection Framework: Collection.|link:src/main/resources/practice/jcf-collection.adoc[jcf-collection.adoc]
+|Java Collection Framework: List.|link:src/main/resources/practice/jcf-list.adoc[jcf-list.adoc]
+|Java Collection Framework: Set.|link:src/main/resources/practice/jcf-set.adoc[jcf-set.adoc]
+|Java Collection Framework: Map.|link:src/main/resources/practice/jcf-map.adoc[jcf-map.adoc]
+|Date and Time API (link:https://jcp.org/en/jsr/detail?id=310[JSR 310]).|link:src/main/resources/practice/date-and-time.adoc[date-and-time.adoc]
+|Lambda Expressions (link:https://jcp.org/en/jsr/detail?id=335[JSR 335]).|link:src/main/resources/practice/lambda-expressions.adoc[lambda-expressions.adoc]
+|Java IO.|link:src/main/resources/practice/java-io.adoc[java-io.adoc]
+|Concurrency.|link:src/main/resources/practice/concurrency.adoc[concurrency.adoc]
+|Concurrency. Thread synchronization.|link:src/main/resources/practice/concurrency-thread-synchronization.adoc[concurrency-thread-synchronization.adoc]
+|Concurrent utilities(link:https://jcp.org/en/jsr/detail?id=166[JSR 166]).|link:src/main/resources/practice/concurrent-utilities.adoc[concurrent-utilities.adoc]
+|Reflection.|link:src/main/resources/practice/reflection.adoc[reflection.adoc]
+|XML.|link:src/main/resources/practice/xml/xml.adoc[xml.adoc]
+|Networking.|link:src/main/resources/practice/networking.adoc[networking.adoc]
+|===
+
+== Project Structure
+
+----
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── rakovets
+│   │           └── course
+│   │               └── java
+│   │                   └── core
+│   │                       ├── example
+│   │                       ├── practice
+│   │                       └── util
+│   └── resources
+│       ├── example
+│       └── practice
+└── test
+    ├── java
+    │   └── com
+    │       └── rakovets
+    │           └── course
+    │               └── java
+    │                   └── core
+    │                       ├── example
+    │                       ├── practice
+    │                       └── util
+    └── resources
+        ├── example
+        └── practice
+----
+
+== Code of Conduct
+
+This project is governed by the link:.github/CODE_OF_CONDUCT.md[Code of Conduct].
+By participating, you are expected to uphold this code of conduct.
+
+== Contributing
+
+Follow link:.github/CONTRIBUTING.md[CONTRIBUTING.md].
+
+== License
+
+The project is released under version 2.0 of the
+link:https://www.gnu.org/licenses/old-licenses/gpl-2.0.html[GNU General Public License].

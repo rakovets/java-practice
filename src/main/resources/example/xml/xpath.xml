@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<developers>
+    <developer id="1">
+        <name>Andrew</name>
+        <age>25</age>
+        <position>Middle</position>
+        <language>Java</language>
+    </developer>
+    <developer id="2">
+        <name>Dima</name>
+        <age>21</age>
+        <position>Junior</position>
+        <language>JS</language>
+    </developer>
+    <developer id="3">
+        <name>Alex</name>
+        <age>26</age>
+        <position>Junior</position>
+        <language>Java</language>
+    </developer>
+    <developer id="4">
+        <name>Irena</name>
+        <age>24</age>
+        <position>Middle</position>
+        <language>JS</language>
+    </developer>
+</developers>

@@ -1,0 +1,20 @@
+= XML
+
+== Project 'Hibernate Config Reader'
+
+* создать *configuration* класс для *Hibernate*
+* создать *reader* класс, который:
+** читает *configuration* файл для *Hibernate* (`hibernate.cfg.xml`) по пути к этому файлу
+** создает *configuration* класс на основе прочитанного *configuration* файла
+
+== Project 'Hibernate Config Writer'
+
+* создать *configuration* класс для *Hibernate*
+* создать *writer* класс, который:
+** создает *configuration* файл на основе *configuration* класса
+** пишет *configuration* файл для *Hibernate* (`hibernate.cfg.xml`) по пути к этому файлу
+
+== Project 'Recursive Parser'**
+
+* создать *recursive parser* для чтение XML с любым уровнем вложенности
+* для хранения элементов XML выбрать подходящую стратегию и структуру данных
